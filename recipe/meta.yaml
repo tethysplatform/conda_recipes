@@ -14,6 +14,14 @@ requirements:
   run:
     - python
     - gsconfig
+    - django<2
+    - future
+    - owslib
+    - requests
+    - requests-toolbelt
+    - coverage
+    - sqlalchemy
+    - psycopg2
 
 build:
   noarch: python
