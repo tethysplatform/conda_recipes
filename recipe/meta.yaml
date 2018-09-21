@@ -1,0 +1,27 @@
+package:
+  name: gsconfig
+  version: "1.1.0"
+
+source:
+  git_url: https://github.com/tethysplatform/gsconfig.git
+  git_rev: python3
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+build:
+  noarch: python
+
+test:
+  imports:
+    - geoserver
+
+about:
+  home: https://github.com/tethysplatform/gsconfig/tree/python3
+  license: MIT
+  license_file: LICENSE.txt
