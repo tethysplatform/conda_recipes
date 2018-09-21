@@ -13,6 +13,8 @@ requirements:
 
   run:
     - python
+    - future
+    - requests
 
 build:
   noarch: python
