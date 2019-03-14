@@ -6,14 +6,14 @@ This repository contains the conda recipes for various Tethys Platform packages.
 
 1. Clone the master branch of this repository.
 2. Create a new branch with the name of the package.
-3. Fill in the meta.yaml (see [Conda Build Tutorials](https://conda.io/docs/user-guide/tutorials/index.html)).
+3. Fill in the meta.yaml (see [Conda Build Tutorials](https://conda.io/projects/conda-build/en/latest/user-guide/tutorials/index.html)).
 4. If necessary, modify the bld.bat and build.sh scripts (for pure Python packages this is not necessary).
 5. Commit changes and submit a Pull Request to contribute recipe.
 
 ## To Build the Conda Package
 
 1. Install Anaconda/Miniconda and activate a conda environment of your choice.
-2. Install `conda build` per [Install Conda Build](https://conda.io/docs/user-guide/tasks/build-packages/install-conda-build.html#install-conda-build).
+2. Install `conda build` per [Install Conda Build](https://conda.io/projects/conda-build/en/latest/install-conda-build.html).
 3. Change into the `conda_recipes` directory:
 
     ```bash

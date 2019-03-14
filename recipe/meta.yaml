@@ -1,9 +1,9 @@
 package:
   name: tethys_dataset_services
-  version: "1.7.0"
+  version: "2.0.0"
 
 source:
-  git_rev: 1.7.0
+  git_rev: 2.0.0
   git_url: https://github.com/tethysplatform/tethys_dataset_services.git
 
 requirements:
@@ -14,7 +14,7 @@ requirements:
   run:
     - python
     - gsconfig
-    - django<2
+    - django
     - future
     - owslib
     - requests
